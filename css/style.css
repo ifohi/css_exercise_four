@@ -75,7 +75,7 @@ div {
 }
 
 /* code added to create two-column design */
-@media screen and (min-width: 575px){
+@media screen and (min-width: 250px){
 		div {
 			margin: 1%;
 			width: 48%;
