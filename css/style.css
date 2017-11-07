@@ -57,12 +57,12 @@ body {
   font-size: 75%;
 	width: 500px;
 	margin: 100px;
-
+	position: absolute;
 }
 
 .container {
-	margin:
-	width:500px;
+	width: 100%;
+	margin: 100px;
 
 }
 
@@ -74,56 +74,26 @@ div {
   padding: 50px 25px 20px 25px;
 }
 
-/* code added to create two-column design */
-@media screen and (min-width: 250px){
-		div {
-			margin: 1%;
-			width: 48%;
-		}
-}
-
 
 h1 {
   font-size: 2.5em;
   margin: 0;
 
-
+	float: left;
 }
-.Baku {
+.Baku, .London, .Madrid, .Rome {
 	float: left;
   position: absolute;
   top: 20%;
   left: 15%;
-	width: 500px;
+	width: 100%;
 }
 
-.London {
-	float: left;
-  position: absolute;
-  top: 20%;
-  left: 15%;
-	width: 500px;
-}
 
-.Madrid {
-	float: left;
-  position: absolute;
-  top: 20%;
-  left: 15%;
-	width: 500px;
-}
-
-.Rome {
-	float: left;
-  position: absolute;
-  top: 20%;
-  left: 15%;
-	width: 500px;
-}
 
 .luxury {
 	padding: 50px 15px 50px 15px;
-	width: 500px;
+	width: 100%;
 	text-align: center;
 	text-transform: uppercase;
 	margin: -5% 0 -5% 0;
@@ -132,7 +102,12 @@ h1 {
 
 }
 
-.preview {
-	width: 500px;
-}
 
+
+/* code added to create two-column design */
+@media screen and (min-width: 250px){
+		div {
+			margin: 1%;
+			width: 48%;
+		}
+}
