@@ -136,10 +136,3 @@ h1 {
 	width: 500px;
 }
 
-/* code added to create two-column design */
-@media screen and (min-width: 575px){
-		div {
-			margin: 1%;
-			width: 48%;
-		}
-}
