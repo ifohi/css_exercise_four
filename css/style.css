@@ -46,66 +46,73 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
------
+--------------
 *, *:before, *:after {
 	box-sizing: border-box;
 }
 
 body {
   background-color: #dadada;
-  font-size: 75%;
-	width: 500px;
-	margin: 100px;
-	position: absolute;
-}
-
-.container {
-	width: 100%;
-	margin: 100px;
-
+  margin-top: 5%;
 }
 
 div {
-	position: relative;
-  float: center;
-  margin: -5% 0;
+  float:left;
+  margin: 1% 0;
   width: 100%;
-  padding: 50px 25px 20px 25px;
+  padding: 20px 25px;
 }
 
 
-h1 {
-  font-size: 2.5em;
-  margin: 0;
-
-	float: left;
-}
-.Baku, .London, .Madrid, .Rome {
-	float: left;
-  position: absolute;
-  top: 20%;
-  left: 15%;
-	width: 100%;
-}
-
-
-
-.luxury {
-	padding: 50px 15px 50px 15px;
-	width: 100%;
-	text-align: center;
-	text-transform: uppercase;
-	margin: -5% 0 -5% 0;
-	top: 50%;
-	left: 50%;
+/* images */
+.preview {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 377px;
 
 }
 
+.baku {
+  background-image: url(../images/baku.jpg);
 
+}
+
+.london {
+  background-image: url(../images/london.png);
+
+}
+
+.madrid {
+  background-image: url(../images/madrid.jpg);
+
+}
+
+.rome {
+  background-image: url(../images/rome.jpg);
+
+}
+
+/* main title only */
+section > h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-bottom: 5%;
+  padding-left: 20%;
+  max-width: 100%;
+}
+
+/* text on image */
+
+.preview h1 {
+  margin-left: 10%;
+  margin-top: 1%;
+  padding-top: 50px;
+  font-size: 20px;
+}
 
 /* code added to create two-column design */
-@media screen and (min-width: 250px){
+@media screen and (min-width: 600px){
 		div {
 			margin: 1%;
 			width: 48%;
