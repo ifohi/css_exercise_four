@@ -46,7 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
---------------
+/* --------------------- */
 *, *:before, *:after {
 	box-sizing: border-box;
 }
@@ -68,7 +68,6 @@ div {
 .preview {
   background-repeat: no-repeat;
   background-size: cover;
-  width: 500px;
   height: 377px;
 
 }
